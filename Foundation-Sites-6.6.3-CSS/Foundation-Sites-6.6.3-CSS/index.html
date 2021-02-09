@@ -1,0 +1,427 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Sandbox</title>
+    <link rel="stylesheet" href="./assets/icons/foundation-icons.css">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <style>
+      .spacer{
+        height: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- navbar /top bar -->
+
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Site Title</li>
+          <li>
+            <a href="#">One</a>
+            <ul class="menu vertical">
+              <li><a href="#">One</a></li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+          </li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><input type="search" placeholder="search"></li>
+          <li><button type='button' class='button'>Search</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TYPOGRAPHY -->
+
+    <!-- in foundation row replaces container -->
+    <div class="row">
+      <!-- heading -->
+      <h1>Heading <small>Secondary text</small></h1>
+      <h2>Heading <small>Secondary text</small></h2>
+      <h2 class="subheader">Subheader</h2>
+      
+      <!-- paragraphs -->
+      <p>Lorem <strong>ipsum dolor sit,</strong> <a href="#">amet consectetur</a> adipisicing elit. Quo, libero.</p>
+
+      <p><em>Lorem ipsum dolor sit amet.</em></p>
+
+      <p class='lead'>Lorem ipsum dolor sit amet.</p>
+
+      <p>Server Up-time</p>
+      <div class="stat">230</div>
+
+      <hr>
+      <!-- alignment classes -->
+      <p class="text-left">text left</p>
+      <p class="text-center">text center</p>
+      <p class="text-right">text right</p>
+      <p class="text-justify">Justified text</p>
+
+      <!-- alignment classes -->
+      <div class="callout clearfix">
+        <a href="#" class="button float-left">Left</a>
+        <a href="#" class="button float-right">Right</a>
+      </div>
+
+      <hr>
+      <code>&lt;<hi>Hello world</hi>  &gt;</code>
+
+      <hr>
+
+        <!-- BLOCKQUOTE -->
+      <blockquote>
+        This is a block quote
+        <cite>John Doe</cite>
+      </blockquote>
+
+      <hr>
+      <!-- Lists -->
+      <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three
+          <ul class='no-bullet'>
+            <li>Nested one</li>
+          <li>Nested two</li>
+          <li>Nested three</li>
+          </ul>
+        </li>
+      </ul>
+
+      <hr>
+
+      <ol>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item three
+          <ul>
+            <li>nested one</li>
+            <li>nexted two</li>
+            <li>nexted three</li>
+          </ul>
+        </li>
+      </ol>
+
+      <!-- visibility -->
+      <p class='hide'>Hidden</p>
+      <p class='invisible'>Invisible</p>
+      <p>you are on a small screen or larger.</p>
+      <p class='show-for-medium'>You are on a medium screen or larger</p>
+      <p class='show-for-large'>you are on a large screen or larger</p>
+      <p class='hide-for-small-only'>You are not on a small screen.</p>
+      <p class='hide-for-medium-only'>You are not on a medium screen</p>
+      <p class="hide-for-large-only">You are not a on a large screen</p>
+      <p class='show-for-landscape'>You are in landscape</p>
+      <p class='show-for-portrait'>You are in portrait </p>
+
+    </div>
+
+
+    <hr>
+    
+    <div class="row"><button class="button">Button</button>
+      <a href="#" class="button">Link</a>
+      <input type="button" value="input" class='button'>
+    
+      <!-- color buttons -->
+      <button class="success button">Success Button</button>
+      <button class="alert button">Alert button</button>
+      <button class="warning button">Warning button</button>
+      <button class="secondary button">Secondary Button</button>
+      <button class="disable button">Doisabled button</button>
+      
+      <br>
+      <!-- sizes -->
+      <button class="button tiny">Tiny button</button>
+      <button class="button small"></button>
+      <button class="buton">Regular button</button>
+      <button class="button large">Large button</button>
+      <button class="button expanded">expanded button</button>
+      <button class="button expanded large">Large expanded button</button>
+
+      <br>
+
+      <!-- hollowed buttons -->
+
+      <button class="success button hollow">hollow Success Button</button>
+      <button class="alert button hollow"> hollow Alert button</button>
+      <button class="warning button hollow">hollow Warning button</button>
+      <button class="secondary button hollow">hollow Secondary Button</button>
+      <button class="disable button hollow">disabled hollow button</button>
+
+
+    </div>
+    <div class="row">
+      <!-- forms -->
+      <form action="">
+        <div>
+          <label for="">Name</label>
+          <input type="text" placeholder="Name">
+        </div>
+        <div>
+          <label for="">Email</label>
+          <input type="email" placeholder='email'>
+        </div>
+        <div>
+          <label for="">Number</label>
+          <input type="number" >
+        </div>
+        <div>
+          <label for="">Message</label>
+          <textarea name="Message" placeholder="Message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <label for="">Gemder</label>
+          <select name="" id="">
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">Other</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Gemder</label>
+          <select name="" id="" multiple>
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">Other</option>
+          </select>
+        </div>
+        <fieldset class='fieldset'>
+          <legend>A fieldset</legend>
+          <input type="checkbox"><label for="">Checkbox</label>
+          <input type="checkbox"><label for="">Checkbox</label>
+          <input type="checkbox"><label for="">Checkbox</label>
+        </fieldset>
+        <label for="fileUpload" class='button'>Upload file</label>
+        <input type="file" id="fileUpload" class='show-for-sr'>
+
+        <label for="">Password</label>
+        <input type="password">
+        <p class="help-text">your paragraph must be 8 characteres or more</p>
+
+        <div class="input-group">
+          <span class='input-group-label'>@</span>
+          <input type="email" class="input-group-field">
+          <div class="input-group-button">
+            <input type="submit" class='button' value="submit">
+          </div>
+
+        </div>
+
+        <div class="switch">
+          <input class="switch-input" id='mySwitch' type='checkbox' name='exampleSwitch'>
+          <label for="switch-paddle" for='mySwitch'>
+            <span class='show-for-sr'>Enabled</span>
+          </label>
+        </div>
+
+        <div class="slider" data-initial-start='0' data-end='20'>
+          <span class="slider-handle" data-slider-handle role='slider' tabindex='1'></span>
+          <span class='slider-fill' data-slider-fill></span>
+          <input type="hidden">
+
+        </div>
+      </form>
+
+      <div class="row">
+        <!-- tables -->
+        <table class='striped hover stack table-scroll'>
+          <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="row">
+        <!-- menus -->
+        <ul class='menu'>
+          <li class='menu-text'>Site Title</li>
+          <li class='active'><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+
+        <ul class='menu vertical'>
+          >
+          <li class='active'><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+
+        <ul class='menu simple'>
+          >
+          <li class='active'><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+
+        <!-- you need a seperate file to include icons -->
+
+        <ul class="menu icon-top">
+          <li><a href="#"><i class="fi-list"><span>One</span></i></a></li>
+          <li><a href="#"><i class="fi-list"><span>Two</span></i></a></li>
+          <li><a href="#"><i class="fi-list"><span>Three</span></i></a></li>
+          <li><a href="#"><i class="fi-list"><span>Four</span></i></a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row">
+      <!-- callouts ... similar to alerts in bootstrap -->
+      <div class="callout">
+        <p>this is an example of a callout</p>
+      </div>
+      <div class="callout secondary">
+        <p>this is an example of a callout</p>
+      </div>
+      <div class="callout success">
+        <p>this is an example of a callout</p>
+      </div>
+      <div class="callout warning">
+        <p>this is an example of a callout</p>
+      </div>
+      <div class="callout alert">
+        <p>this is an example of a callout</p>
+      </div>
+
+      <hr>
+      <!-- progress bars -->
+      <div class="success progress" role='progressbar'>
+        <div class="progress-meter" style="width: 25%">
+          <p class='progress-meter-text'>25%</p>
+        </div>
+      </div>
+
+      <div class="alert progress" role='progressbar'>
+        <div class="progress-meter" style="width: 75%">
+          <p class='progress-meter-text'>25%</p>
+        </div>
+      </div>
+
+      <div class="warning progress" role='progressbar'>
+        <div class="progress-meter" style="width: 25%">
+          <p class='progress-meter-text'>25%</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- labels -->
+
+      <span class='secondary label'>Secondary Label</span>
+
+      <hr>
+      <!-- badges -->
+      <span class="secondary badge">Badge</span>
+
+      <hr>
+      <!-- breadrcrumbs -->
+      <nav role='navigation'>
+        <ul class="breadcrumbs">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Posts</a></li>
+          <li class="disabled">Disabled</li>
+          <li>My Post</li>
+        </ul>
+
+      </nav>
+
+      <hr>
+
+      <!-- pagination -->
+
+      <ul class="pagination" role='navigation'>
+        <li class="current">1</li>
+        <li class="disabled">Previous</li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li class="ellipsis"></li>
+        <li><a href="#">4</a></li>
+      </ul>
+
+      <!-- grid system  -->
+
+      <div class="grid-x">
+        <div class="cell large-8 medium-6">
+          <h3>Main column</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia blanditiis voluptatem eaque quos, voluptates numquam?</p>
+        </div>
+        <div class="cell large-4 medium-6">
+          <h3>Side bar</h3>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <div class="grid-x">
+          <div class="cell large-3 medium-3">
+            <h3>Cell 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi!</p>
+          </div>
+          <div class="cell large-3 medium-3">
+            <h3>Cell 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi!</p>
+          </div>
+          <div class="cell large-3 medium-3">
+            <h3>Cell 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi!</p>
+          </div>
+          <div class="cell large-3 medium-3">
+            <h3>Cell 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-x">
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+        <div class="cell large-1"><h3>One Width</h3></div>
+      </div>
+
+      <div class="grid-x">
+        <div class="cell large-12 large-offset-6">
+          <h3>box</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam odio, quas adipisci harum officiis perferendis sit sequi ex repellat dolore. Totam rerum maxime nulla voluptatem, animi architecto cupiditate modi?</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="spacer"></div>
+
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/foundation.js"></script>
+  </body>
+</html>
